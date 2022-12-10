@@ -1,0 +1,8 @@
+Crear componente con ng generate component ProductosList
+Crear servicio con ng generate service Productos
+Mover servicios a la carpeta /services
+Agregar funcion "getProductos" en el nuevo servicio (/src/app/services/productos.service.ts)
+Actualizar constructor del componente para que llame "getProductos" (src/app/productos-list/productos-list.component.ts)
+Actualizo comportamiento de ProductosList (src/app/productos-list/productos-list.component.ts)
+Actualizo html de ProductosList (src/app/productos-list/productos-list.component.html)
+Actualizo html raiz para que llame al componente correcto (src/app/app.component.html)

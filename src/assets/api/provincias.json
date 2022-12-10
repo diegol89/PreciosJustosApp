@@ -1,0 +1,122 @@
+[
+  {
+    "id": 2,
+    "nombre": "Buenos Aires",
+    "api": "buenos-aires"
+  },
+  {
+    "id": 3,
+    "nombre": "CABA",
+    "api": "caba"
+  },
+  {
+    "id": 4,
+    "nombre": "Catamarca",
+    "api": "catamarca"
+  },
+  {
+    "id": 5,
+    "nombre": "Chaco",
+    "api": "chaco"
+  },
+  {
+    "id": 6,
+    "nombre": "Chubut",
+    "api": "chubut"
+  },
+  {
+    "id": 7,
+    "nombre": "Córdoba",
+    "api": "cordoba"
+  },
+  {
+    "id": 8,
+    "nombre": "Corrientes",
+    "api": "corrientes"
+  },
+  {
+    "id": 9,
+    "nombre": "Entre Ríos",
+    "api": "entre-rios"
+  },
+  {
+    "id": 10,
+    "nombre": "Formosa",
+    "api": "formosa"
+  },
+  {
+    "id": 11,
+    "nombre": "Jujuy",
+    "api": "jujuy"
+  },
+  {
+    "id": 12,
+    "nombre": "La Pampa",
+    "api": "la-pampa"
+  },
+  {
+    "id": 13,
+    "nombre": "La Rioja",
+    "api": "la-rioja"
+  },
+  {
+    "id": 14,
+    "nombre": "Mendoza",
+    "api": "mendoza"
+  },
+  {
+    "id": 15,
+    "nombre": "Misiones",
+    "api": "misiones"
+  },
+  {
+    "id": 16,
+    "nombre": "Neuquén",
+    "api": "neuquen"
+  },
+  {
+    "id": 17,
+    "nombre": "Río Negro",
+    "api": "rio-negro"
+  },
+  {
+    "id": 18,
+    "nombre": "Salta",
+    "api": "salta"
+  },
+  {
+    "id": 19,
+    "nombre": "San Juan",
+    "api": "san-juan"
+  },
+  {
+    "id": 20,
+    "nombre": "San Luis",
+    "api": "san-luis"
+  },
+  {
+    "id": 21,
+    "nombre": "Santa Cruz",
+    "api": "santa-cruz"
+  },
+  {
+    "id": 22,
+    "nombre": "Santa Fe",
+    "api": "santa-fe"
+  },
+  {
+    "id": 23,
+    "nombre": "Santiago del Estero",
+    "api": "santiago-del-estero"
+  },
+  {
+    "id": 24,
+    "nombre": "Tierra del Fuego",
+    "api": "tierra-del-fuego"
+  },
+  {
+    "id": 25,
+    "nombre": "Tucumán",
+    "api": "tucuman"
+  }
+]

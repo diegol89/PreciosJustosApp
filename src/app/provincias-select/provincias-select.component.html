@@ -1,0 +1,90 @@
+
+<h1>Provincia seleccionada: {{provinciaSlctd.nombre}}</h1>
+<br>
+
+<select class="form-select" name="provinciasSelect" [(ngModel)]="provinciaSlctd">
+    <option value="">Seleccione una provincia</option>
+    <option *ngFor="let provincia of provincias" [ngValue]=provincia>
+        {{provincia.nombre}}
+    </option>
+</select>
+<br>
+<span [ngSwitch]="provinciaSlctd.nombre">
+    <span *ngSwitchCase="'Buenos Aires'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/051/824/non_2x/3d-isometric-map-of-buenos-aires-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'CABA'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/051/824/non_2x/3d-isometric-map-of-buenos-aires-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Catamarca'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/069/081/original/3d-isometric-map-of-catamarca-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Chaco'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/034/277/original/3d-isometric-map-of-chaco-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Chubut'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-chubut-es-provincia-argentina_97886-5521.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Córdoba'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/067/064/original/3d-isometric-map-of-cordoba-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Corrientes'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/047/769/non_2x/3d-isometric-map-of-corrientes-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Entre Ríos'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-rios-es-provincia-argentina_97886-6117.jpg?w=740" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Formosa'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/069/031/non_2x/3d-isometric-map-of-formosa-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Jujuy'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-salta-es-provincia-argentina_97886-5564.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'La Pampa'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-3d-pampa-es-provincia-argentina_97886-7449.jpg?w=2000" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'La Rioja'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/041/740/non_2x/3d-isometric-map-of-la-rioja-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Mendoza'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-3d-mendoza-es-provincia-argentina_97886-7462.jpg?w=2000" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Misiones'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/052/321/original/3d-isometric-map-of-misiones-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Neuquén'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-neuquen-es-provincia-argentina_97886-5553.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Río Negro'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-rio-negro-es-provincia-argentina_97886-6134.jpg?w=2000" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Salta'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-salta-es-provincia-argentina_97886-5564.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'San Juan'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-3d-san-juan-es-provincia-argentina_97886-7497.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'San Luis'">
+        <img src="https://static.vecteezy.com/system/resources/previews/007/943/178/non_2x/3d-isometric-map-of-san-luis-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Santa Cruz'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/052/008/non_2x/3d-isometric-map-of-santa-cruz-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Santa Fe'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/051/531/non_2x/3d-isometric-map-of-santa-fe-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Santiago del Estero'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/064/103/non_2x/3d-isometric-map-of-santiago-del-estero-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Tierra del Fuego'">
+        <img src="https://img.freepik.com/vector-premium/mapa-isometrico-3d-tierra-fuego-es-provincia-argentina_97886-7514.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchCase="'Tucumán'">
+        <img src="https://static.vecteezy.com/system/resources/previews/008/038/003/non_2x/3d-isometric-map-of-tucuman-is-a-province-of-argentina-vector.jpg" alt="" width="600" height="300" class="center">
+    </span>
+    <span *ngSwitchDefault></span>
+  </span>
+
+
+<button class="btn btn-info" (click)="handleOnClickButton()">Ver precios</button>
+
